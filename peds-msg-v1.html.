@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>TAMIS EII — Informação Importante (Pediatria)</title>
+  <meta name="color-scheme" content="light dark">
+
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0f172a; --muted:#475569; --accent:#2563eb; --card:#f8fafc; --border:#e2e8f0;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --fg:#e5e7eb; --muted:#94a3b8; --accent:#60a5fa; --card:#0f172a; --border:#1f2937; }
+    }
+    html,body{ margin:0; padding:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Ubuntu,"Helvetica Neue",Arial,sans-serif; line-height:1.6; }
+    .wrap{ max-width: 760px; margin: 0 auto; padding: 24px; }
+    .card{ background:var(--card); border:1px solid var(--border); border-radius:16px; padding: 20px; }
+    h1{ font-size: 1.4rem; line-height:1.25; margin: 0 0 8px; }
+    h2{ font-size: 1.05rem; margin: 24px 0 8px; }
+    p,li{ font-size: 1rem; color: var(--fg); }
+    .muted{ color: var(--muted); }
+    .badge{ display:inline-block; background: var(--accent); color:#fff; font-weight:600; padding: 6px 10px; border-radius: 999px; font-size: .85rem; }
+    .hr{ height:1px; background:var(--border); border:none; margin:16px 0; }
+    .footer{ font-size:.9rem; color:var(--muted); margin-top: 16px; }
+    .list{ padding-left: 18px; }
+    a{ color: var(--accent); text-decoration: none; }
+    a:focus, a:hover{ text-decoration: underline; }
+    /* Aumenta o toque/legibilidade em mobile */
+    @media (max-width:480px){
+      .wrap{ padding: 16px; }
+      .card{ padding: 16px; border-radius:12px; }
+      h1{ font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="card" role="region" aria-label="Informação importante para médicos da Pediatria">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px;">
+        <span class="badge">Pediatria</span>
+        <span class="muted">Versão v1 — atualizado em 17/09/2025</span>
+      </div>
+
+      <h1>TAMIS EII — Informação Importante</h1>
+      <p class="muted">Esta mensagem é exibida apenas para <strong>médicos</strong> da clínica <strong>Pediatria</strong> e deve ser lida duas vezes.</p>
+      <hr class="hr" />
+
+      <h2>[[ Título de abertura ]]</h2>
+      <p>[[ Ex.: Olá! Bem-vindo ao TAMIS EII. Este aplicativo utiliza recursos de IA para apoiar o raciocínio clínico em casos com suspeita de imunodeficiência, visando padronização e agilidade no atendimento. ]]</p>
+
+      <h2>[[ Objetivo / escopo ]]</h2>
+      <ul class="list">
+        <li>[[ Ex.: Suporte ao diagnóstico e à tomada de decisão clínica. ]]</li>
+        <li>[[ Ex.: Recomendações baseadas em protocolos internos e referências científicas. ]]</li>
+        <li>[[ Ex.: Não substitui o julgamento médico. ]]</li>
+      </ul>
+
+      <h2>[[ Responsabilidades e limitações ]]</h2>
+      <ul class="list">
+        <li>[[ Ex.: As sugestões apresentadas são complementares e devem ser avaliadas pelo médico responsável. ]]</li>
+        <li>[[ Ex.: Em caso de discordância clínica, prevalece o julgamento profissional. ]]</li>
+        <li>[[ Ex.: O conteúdo pode ser atualizado periodicamente. ]]</li>
+      </ul>
+
+      <h2>[[ Privacidade e segurança ]]</h2>
+      <p>[[ Ex.: Os dados de pacientes seguem políticas de confidencialidade e LGPD. Evite inserir informações além do necessário para o suporte clínico. ]]</p>
+
+      <h2>[[ Contato / suporte ]]</h2>
+      <p>[[ Ex.: Em caso de dúvidas ou inconsistências, entre em contato com a equipe responsável. ]]</p>
+      <!-- 🔼 Fim do bloco editável -->
+
+      <div class="footer">
+        <p><em>Observação:</em> este documento é informativo e não dispensa a leitura dos termos aplicáveis (TCLE e políticas internas).</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
